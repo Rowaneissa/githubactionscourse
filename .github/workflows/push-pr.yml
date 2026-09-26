@@ -4,13 +4,13 @@ on:
       - main
       - "release/**"
     paths:
-      -"src/**"
-  pull:
+      - "src/**"
+  pull_request:
     branches:
       - main
       - "release/**"
     paths:
-      -"src/**"      
+      - "src/**"      
 jobs:
   test:
     runs-on: ubuntu-latest
